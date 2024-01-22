@@ -1,5 +1,5 @@
 {
-  "name": "todo-list-backend",
+  "name": "tic-tac-toe-backend",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
