@@ -1,30 +1,17 @@
-# React + TypeScript + Vite
+# Tic-Tac-Toe Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This is a simple Tic-Tac-Toe game implemented in React and Tailwind CSS. It allows two players to play against each other, taking turns to place their marks (X and O) on a 3x3 grid. The game automatically checks for a winner after each move and draws a line across the winning combination. If the game ends in a draw, it also displays the result.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Two-Player Game**: Players take turns to place their marks on the grid.
+- **Winning Line**: A line is drawn across the winning combination when a player wins.
+- **Draw Detection**: The game detects when the match ends in a draw.
+- **Responsive UI**: The game grid is responsive and adjusts to different screen sizes.
+- **Play Again**: Players can reset the game and start a new match.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Live Demo
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Check out the live demo: [Tic-Tac-Toe](https://tic-tac-toe-tn1g.onrender.com/)
